@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main11Activity"
+    android:background="#BFCEC7">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cabras en el Cerro"
+        android:gravity="center"
+        android:padding="40dp"
+        android:textSize="30dp"
+        android:id="@+id/titulo"
+        />
+
+    <ImageView
+        android:id="@+id/imagen11"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/once"
+        android:layout_below="@+id/titulo"
+        android:textAlignment="center"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eran las 6 de la mañana y a mi primo, hermano y otro amigo se les hizo facil despertarme para ir al cerro a caminar esto en un rancho de sinaloa, cuando ibamos subiendo de la nada unas cabras empiezan a bajar y todavia desconocemos el porque una de ellas me empezo a perseguir corri cerro abajo hasta llegar a una cerca donde rapidamente y sin saber como la cruce y me salve de una cabra, esta foto fue tomada antes de la tragedia "
+        android:layout_below="@id/imagen11"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/description"
+        android:layout_margin="12dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="23dp"
+            />
+        <Button
+            style="@style/AppTheme.Botonregresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:layout_centerHorizontal="true"
+            android:text="Regresar"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:id="@+id/boton11"
+
+        />
+</LinearLayout>
+</ScrollView>

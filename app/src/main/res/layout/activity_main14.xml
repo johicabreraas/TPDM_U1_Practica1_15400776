@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main14Activity"
+    android:background="#BFCEC7">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don Joseson"
+        android:gravity="center"
+        android:padding="40dp"
+        android:textSize="30dp"
+        android:id="@+id/titulo"
+        />
+
+    <ImageView
+        android:id="@+id/imagen14"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/catorce"
+        android:layout_below="@+id/titulo"
+        android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El es mi abuelo paterno, nunca lo conocí ya que el murió cuando todavía no nacía, el era un hombre de campo y era apodado Don Joseson aunque no se llamaba José, mis padres me pusieron Jose en su memoria, esta foto la tome cuando visitamos la casa de mis bisabuelos, mi bisabuela siempre la llevaba consigo"
+            android:layout_below="@id/imagen14"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/description"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="22dp"
+            />
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:layout_below="@id/description"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        style="@style/AppTheme.Botonregresar"
+        android:id="@+id/boton14"
+        />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main8Activity"
+    android:background="#BFCEC7">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beisbol"
+        android:gravity="center"
+        android:padding="40dp"
+        android:textSize="30dp"
+        android:id="@+id/titulo"
+        />
+
+    <ImageView
+        android:id="@+id/imagen8"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/ocho"
+        android:layout_below="@+id/titulo"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="El beisbol es mi deporte favorito, talvez no sea tan bueno pero me gusta practicarlo cuando puedo, en esa ocasion fui auna jaula de bateo que esta por cerca de forumm "
+        android:layout_below="@id/imagen8"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/description"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="22dp"
+        />
+        <Button
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar"
+            android:layout_below="@id/description"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            style="@style/AppTheme.Botonregresar"
+            android:id="@+id/boton8"
+            />
+    </LinearLayout>
+</ScrollView>
